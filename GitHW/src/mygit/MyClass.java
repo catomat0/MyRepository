@@ -6,6 +6,7 @@ public class MyClass {
 
 		System.out.println("Hello Git!");
 		System.out.println("Master Branch!");
-
+		YourClass yourClass = new YourClass();
+		yourClass.sayHello("Everyone");
 	}
 }
